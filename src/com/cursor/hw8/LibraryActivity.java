@@ -40,4 +40,12 @@ public class LibraryActivity {
             System.out.println(date + " - No books were taken on this date.");
         }
     }
+
+    public static void reportTakenBooks() {
+        reportDateTitleMap.values().forEach(System.out::println);
+    }
+
+    public static void reportDatesTakenBooks() {
+        reportDateTitleMap.keySet().forEach(System.out::println);
+    }
 }

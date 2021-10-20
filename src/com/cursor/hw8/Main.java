@@ -22,6 +22,13 @@ public class Main {
         System.out.println("Report on: 2021-10-10");
         LibraryActivity.reportOnDate(LocalDate.of(2021, 10, 10));
         System.out.println("***  *  ***  *  ***" + "\n");
-    }
 
+        System.out.println("Report, all taken books: ");
+        LibraryActivity.reportTakenBooks();
+        System.out.println("***  *  ***  *  ***" + "\n");
+
+        System.out.println("Report, dates when books were taken: ");
+        LibraryActivity.reportDatesTakenBooks();
+        System.out.println("***  *  ***  *  ***");
+    }
 }
